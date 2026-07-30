@@ -1,8 +1,29 @@
 aid: maquoketa-research
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maquoketa-research.png
 name: Maquoketa Research
-description: Maquoketa Research is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Maquoketa Research is a defense-technology startup (Y Combinator, Spring 2026)
+  building autonomous terminal-guidance systems for one-way attack drones. Its
+  platform-agnostic guidance modules add custom computer-vision object tracking
+  to low-cost FPV drone hardware, raising strike success rates from under 25% to
+  roughly 80% while maintaining target lock through GPS jamming and signal loss.
+  Founded in 2025 and based in San Francisco, the five-person team ships hardware
+  modules (product lines include GCS, Magpie, Odin, and TGS) that integrate with
+  existing drone flight controllers rather than a public developer API. This
+  profile was surfaced as a Y Combinator portfolio company and enriched from the
+  company's public website; it currently exposes no public API, SDK, or developer
+  platform surface.
 url: https://raw.githubusercontent.com/api-evangelist/maquoketa-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defense
+- Drones
+- Autonomous Systems
+- Guidance Systems
+- Computer Vision
+- Hardware
+- Aerospace
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.maquoketa.net
+- type: About
+  url: https://www.maquoketa.net/about
+- type: Products
+  url: https://www.maquoketa.net/products
+- type: Contact
+  url: https://www.maquoketa.net/contact
+- type: SignUp
+  url: https://www.maquoketa.net/waitlist
+- type: DomainSecurity
+  url: security/maquoketa-research-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
