@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: probed
+source: live TLS/HTTP HEAD + dig on maquoketa.net hosts
+hosts:
+  - host: www.maquoketa.net
+    https: true
+    tls_version: TLSv1.3
+    cert_expires: '2026-10-07'
+    hsts: false
+    hsts_max_age: null
+    server: cloudflare
+  - host: maquoketa.net
+    https: true
+    tls_version: TLSv1.3
+    hsts: false
+domains:
+  - domain: maquoketa.net
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: v=spf1 include:spf.protection.outlook.com -all
+    dmarc: false
+    dmarc_policy: null
+notes: >-
+  No DNSSEC (no DS record), no CAA policy, and no DMARC record published as of
+  the probe date. SPF is published for Microsoft 365 / Outlook mail. Site is
+  served behind Cloudflare.
