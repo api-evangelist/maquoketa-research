@@ -51,7 +51,7 @@ tags:
 - Drones
 - Autonomous Systems
 - Guidance Systems
-- Computer-Vision
+- Computer Vision
 - Hardware
 - Aerospace
 - Y Combinator
@@ -65,6 +65,7 @@ tags_raw:
 - Hardware
 - Aerospace
 - Y Combinator
+- Computer-Vision
 apis: []
 common:
 - type: Website
